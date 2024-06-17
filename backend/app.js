@@ -18,7 +18,7 @@ app.use(
 
 app.use(express.json());
 
-// Pass
+// Pass start
 
 app.post("/register", async (req, res) => {
   const { username, password } = req.body;
