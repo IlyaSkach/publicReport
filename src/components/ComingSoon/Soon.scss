@@ -1,0 +1,17 @@
+.soon {
+	display: flex;
+	max-width: 1200px;
+	margin: 0 auto;
+	
+
+	&__title {
+		text-align: center;
+		font-size: 70px;
+	}
+
+	&__img {
+		width: 100%;
+	}
+}
+
+

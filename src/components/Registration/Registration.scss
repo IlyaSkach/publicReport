@@ -1,0 +1,22 @@
+.registration {
+	display: flex;
+	max-width: 1200px;
+	margin: 0 auto;
+	justify-content: center;
+
+	&__title {
+		margin: 20px;
+	}
+
+	&__input {
+		margin-bottom: 30px;
+		display: flex;
+		flex-direction: column;
+	}
+
+	&__form {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+}
